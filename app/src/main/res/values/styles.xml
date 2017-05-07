@@ -1,0 +1,131 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorBlue</item>
+        <item name="colorPrimaryDark">@color/colorBlueDark</item>
+        <item name="colorAccent">@color/colorOrange</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.styleRed" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorRed</item>
+        <item name="colorPrimaryDark">@color/colorRedDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="arcColor">@color/progress_gray</item>
+    </style>
+
+    <style name="AppTheme.styleBlue" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorBlue</item>
+        <item name="colorPrimaryDark">@color/colorBlueDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="arcColor">@color/progress_gray</item>
+    </style>
+
+    <style name="AppTheme.styleGreen" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorGreen</item>
+        <item name="colorPrimaryDark">@color/colorGreenDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="arcColor">@color/progress_gray</item>
+    </style>
+
+    <style name="AppTheme.styleSalomon" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorSalmon</item>
+        <item name="colorPrimaryDark">@color/colorSalomonDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="arcColor">@color/progress_gray</item>
+    </style>
+
+    <style name="AppTheme.stylePeachPuff" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPeach</item>
+        <item name="colorPrimaryDark">@color/colorPeachPuff</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="arcColor">@color/progress_gray</item>
+    </style>
+
+    <style name="AppTheme.styleOlive" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorOlive</item>
+        <item name="colorPrimaryDark">@color/colorOliveDrab</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="arcColor">@color/progress_gray</item>
+    </style>
+
+    <style name="AppTheme.styleChocolate" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorChocolate</item>
+        <item name="colorPrimaryDark">@color/colorChocolateDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="arcColor">@color/progress_gray</item>
+    </style>
+
+    <style name="AppTheme.styleGold" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorGold</item>
+        <item name="colorPrimaryDark">@color/colorGoldDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="arcColor">@color/progress_gray</item>
+    </style>
+
+    <style name="AppTheme.seekCircuitStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorBlue</item>
+        <item name="colorPrimaryDark">@color/colorBlueDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="arcColor">@color/progress_gray</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.ImageView_PlayerVIew" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">25</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="AppTheme.FAB_PLAY_STOP" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <style name="AppTheme.SeekBarAudio" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:max">15</item>
+        <item name="android:thumb">@drawable/ic_volume_up_black_24dp</item>
+    </style>
+
+    <style name="AppTheme.MainImage" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:src">@drawable/ic_beethoven</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="AppTheme.MainText" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/app_bar_title_style_medium</item>
+        <item name="android:textStyle">bold|italic</item>
+        <item name="android:editable">false</item>
+        <item name="android:tag">0</item>
+        <item name="android:text">@string/Beethoven_Fidelio_Overture_Expert_1</item>
+    </style>
+
+</resources>

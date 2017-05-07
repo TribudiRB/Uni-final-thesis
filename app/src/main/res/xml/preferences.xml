@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/settings_global">
+        <ListPreference
+            android:defaultValue="2"
+            android:entries="@array/theme_names"
+            android:entryValues="@array/theme_val"
+            android:icon="@drawable/ic_format_paint_black_24dp"
+            android:key="com.buczek.magisterka.preferences.theme.key"
+            android:summary="Mozesz wybrać wersję kolorystyczną która najbardziej Ci odpowiada"
+            android:title="@string/theme_main" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_playing_sounds">
+        <CheckBoxPreference
+            android:defaultValue="1"
+            android:entryValues="@array/theme_val"
+            android:icon="@drawable/ic_ring_volume_black_24dp"
+            android:key="com.buczek.magisterka.preferences.record.key"
+            android:summary="W momencie przychodzącego połączenia sygnal zostanie wyciszony"
+            android:title="@string/mute_ringtone" />
+        <CheckBoxPreference
+            android:defaultValue="1"
+            android:icon="@drawable/ic_perm_phone_msg_black_24dp"
+            android:key="com.buczek.magisterka.preferences.mute.all.notification.key"
+            android:summary="Podczas odtwarzania żadna notifikacja nie odtworzy dźwięku"
+            android:title="@string/mute_notification" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_recording_sounds">
+        <CheckBoxPreference
+            android:defaultValue="1"
+            android:icon="@drawable/ic_ring_volume_black_24dp"
+            android:key="com.buczek.magisterka.preferences.mute.all.incominng.call.record.key"
+            android:summary="Podczas nagrywania gdy zdaży się połączenie przychodzące to dźwięk nie zostanie odtworzony"
+            android:title="Wycisz dźwiek przychodzącego połączenia podczas nagrywania" />
+        <CheckBoxPreference
+            android:defaultValue="1"
+            android:icon="@drawable/ic_perm_phone_msg_black_24dp"
+            android:key="com.buczek.magisterka.preferences.mute.all.notification.record.key"
+            android:summary="Podczas nagrywania nie zostanie odtworzona żadne powiadomienie"
+            android:title="Wycisz powiadomienia podczas nagrywania" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

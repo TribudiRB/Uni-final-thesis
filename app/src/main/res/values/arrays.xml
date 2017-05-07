@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="theme_names">
+        <item>@string/theme_red</item>
+        <item>@string/theme_blue</item>
+        <item>@string/theme_green</item>
+        <item>@string/theme_salomon</item>
+        <item>@string/theme_peach</item>
+        <item>@string/theme_olive</item>
+        <item>@string/theme_chocolate</item>
+        <item>@string/theme_gold</item>
+    </string-array>
+
+    <string-array name="theme_val">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+</resources>

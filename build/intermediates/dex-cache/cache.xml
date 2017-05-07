@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/robert/.gradle/caches/otherModules-2/files-2.1/io.realm/realm-annotations/1.1.0-SNAPSHOT/9d8bd3cd4c95421def244dc5b1cbc2e1b38e5aae/realm-annotations-1.1.0-SNAPSHOT.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9d8bd3cd4c95421def244dc5b1cbc2e1b38e5aae">
+        <dex dex="/Users/robert/magisterka2/magisterka/app/build/intermediates/transforms/dex/debug/folders/1000/10/realm-annotations-1.1.0-SNAPSHOT_f145238aa3f0f3796c0095fead28a2de38cc038e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robert/magisterka2/magisterka/app/build/intermediates/exploded-aar/io.realm/realm-android-library/1.1.0-SNAPSHOT/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8db92808285283fca293995438f0951db0e9e17e">
+        <dex dex="/Users/robert/magisterka2/magisterka/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.realm-realm-android-library-1.1.0-SNAPSHOT_9201bd7bbcc9fa0f87c869a1ad401905410e430f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robert/magisterka2/magisterka/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7d385ae001ec14d0e79cd6104b89562ba26f32ef">
+        <dex dex="/Users/robert/magisterka2/magisterka/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_e27956a5e812ecb66cedcee2557772507ec43fcb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/robert/magisterka2/magisterka/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/robert/magisterka2/magisterka/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_12986ebd085656224bae3088ed762a707cc6fc19/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/menu_top"
+        android:checkableBehavior="single"
+        android:title="Głowne">
+
+        <item
+            android:id="@+id/player"
+            android:checked="false"
+            android:icon="@drawable/ic_bubble_chart_black_24dp"
+            android:title="@string/drawer_player" />
+
+        <item
+            android:id="@+id/sounds"
+            android:checked="false"
+            android:icon="@drawable/ic_queue_music_black_24dp"
+            android:title="@string/drawer_sound" />
+
+        <item
+            android:id="@+id/record"
+            android:checked="false"
+            android:icon="@drawable/ic_record_voice_over_black_24dp"
+            android:title="@string/drawer_record" />
+    </group>
+    <item
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none"
+        android:title="Inne">
+        <menu>
+            <item
+                android:id="@+id/settings"
+                android:icon="@drawable/ic_build_black_24dp"
+                android:title="@string/drawer_settings" />
+            <item
+                android:id="@+id/about"
+                android:checked="false"
+                android:icon="@drawable/ic_developer_board_black_24dp"
+                android:title="@string/drawer_about" />
+
+            <item
+                android:id="@+id/exit"
+                android:checked="false"
+                android:icon="@drawable/ic_power_settings_new_black_24dp"
+                android:title="@string/drawer_exit" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Trombone expert</string>
+    <string name="app_welcome">Welcome</string>
+    <string name="action_settings">Settings</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_ok">Ok</string>
+
+    <string name="first_run_content">Welcome in Final Application</string>
+    <string name="first_run_button">Lets run</string>
+
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+
+    <string name="drawer_player">Player</string>
+    <string name="drawer_sound">Sound list</string>
+    <string name="drawer_record">Record track</string>
+    <string name="drawer_settings">Settings</string>
+    <string name="drawer_about">About application</string>
+    <string name="drawer_exit">Close app</string>
+
+    <string name="theme_main">Application theme</string>
+    <string name="settings_global">Global</string>
+    <string name="theme_red">Pink theme</string>
+    <string name="theme_blue">Blue theme</string>
+    <string name="theme_green">Green theme</string>
+    <string name="theme_salomon">Salomon theme</string>
+    <string name="theme_peach">PeachPuff theme</string>
+    <string name="theme_olive">Olive theme</string>
+    <string name="theme_chocolate">Chocolate theme</string>
+    <string name="theme_gold">Gold theme</string>
+
+    <string name="time_one_minute">1 minute</string>
+    <string name="five_sounds">5 minutes</string>
+    <string name="ten_minute">10 minutes</string>
+    <string name="fifteen_minutes">15 minutes</string>
+    <string name="twenty_minutes">20 minutes</string>
+    <string name="thirty_minutes">30 minutes</string>
+    <string name="forty_five_minutes">45 minutes</string>
+    <string name="one_hour_minutes">1 hour</string>
+    <string name="infinity">Endless</string>
+    <string name="player_view_time_title">Time</string>
+
+    <string name="Beethoven_Fidelio_Overture_Expert_1">Beethoven - Fidelio Overture Expert 1</string>
+    <string name="Beethoven_Fidelio_Overture_Expert_2">Beethoven - Fidelio Overture Expert 2</string>
+    <string name="Beethoven_Symphony_V">Beethoven - Symphony No. V, Movt. IV</string>
+    <string name="Beethoven_Symphony_IX">Beethoven - Symphony No. IX, Movt. IV</string>
+    <string name="Berioz_Hungarian_march">Berlioz - Hungarian March</string>
+    <string name="Berioz_Roman_Carnival_expert_1">Berlioz - Roman Carnival Expert I</string>
+    <string name="Berioz_Roman_Carnival_expert_2">Berlioz - Roman Carnival Expert II</string>
+    <string name="Berioz_Borodin_Polovestian_expert_1">Borodin - Polovetsian Dances Expert I</string>
+    <string name="Berioz_Borodin_Polovestian_expert_2">Borodin - Polovetsian Dances Expert II</string>
+    <string name="Berioz_Borodin_Polovestian_expert_3">Borodin - Polovetsian Dances Expert III</string>
+    <string name="Berioz_Borodin_Polovestian_expert_4">Borodin - Polovetsian Dances Expert IV</string>
+    <string name="Berioz_Borodin_Polovestian_expert_5">Borodin - Polovetsian Dances Expert V</string>
+    <string name="Berioz_Borodin_Steep_of_Asia">Borodin - Steppes of Central Asia </string>
+    <string name="Brahms_Academic_Overture_expert_1">Brahms - Academic Festival Overture, Op. 80 Expert I</string>
+    <string name="Brahms_Academic_Overture_expert_2">Brahms - Academic Festival Overture, Op. 80 Expert II</string>
+    <string name="Brahms_Academic_Overture_expert_3">Brahms - Academic Festival Overture, Op. 80 Expert III</string>
+    <string name="Brahms_Academic_Overture_expert_4">Brahms - Academic Festival Overture, Op. 80 Expert IV</string>
+    <string name="Brahms_Academic_Overture_expert_5">Brahms - Academic Festival Overture, Op. 80 Expert V</string>
+
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="concate_of">of</string>
+
+    <string name="permissions">Permissions</string>
+    <string name="permissions_question">Why we need specific permissions?</string>
+    <string name="contact">Contact</string>
+    <string name="application_developer">Developer</string>
+    <string name="version">Version</string>
+    <string name="version_information">Information</string>
+    <string name="current_version">Version 1.0.0 - Release application</string>
+    <string name="play_time">Duration:</string>
+    <string name="play_times">Play times:</string>
+    <string name="dialog_button_value_close">Close</string>
+
+    <string name="mute_ringtone">Mute ringtone during play</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="critical_error">Critical error</string>
+
+    <string name="mute_notification">Mute notifications during play</string>
+    <string name="no_program_find">No appropriate program</string>
+    <string name="developer_name">Robert Buczek</string>
+    <string name="contact_mail">contactMail@o2.pl</string>
+    <string name="permission_text">READ_PHONE_STATE/MEDIA_BUTTON - use volume buttons \n\nINTERNET/ACCESS_NETWORK_STATE - bugs reporting and adverts</string>
+
+    <string name="record_view_title">Title</string>
+    <string name="record_view_input_hint">My song name</string>
+
+    <string name="pager_system">System</string>
+    <string name="pager_records">Records</string>
+
+    <string name="get_access">Get access</string>
+    <string name="add_permission">Add permissions</string>
+    <string name="go_to_settings">Go to settings</string>
+
+    <string name="save_question">Save record?</string>
+    <string name="save_yes">Save</string>
+    <string name="save_no">Remove</string>
+    <string name="remove_recording">Remove recording</string>
+
+    <string name="delete_content">Do you really want to delete?</string>
+    <string name="delete">Delete</string>
+    <string name="wrong_name">Wrong name</string>
+    <string name="cannot_find_file">Cannot find a file</string>
+
+    <string name="record_permission_can_again">Without permissions you cannot use microphone and record your own sounds. You need to add permissions in application settings.</string>
+    <string name="record_permission_newer_again">Without permissions you cannot use microphone and record your own sounds.</string>
+    <string name="settings_recording_sounds">Nagrywanie dźwięku</string>
+    <string name="settings_playing_sounds">Odtwarzanie dźwięku</string>
+    <string name="final_work">O pracy magisterskiej</string>
+    <string name="about_final_work">Podstawowe informacje na temat pracy magisterskiej</string>
+    <string name="dialog_thesis_context">Praca magisterska pod tytółem \"Technika reaktywnego tworzenia oprogramowania na platformie Android\" napisana pod opieką Prof. P. Mikołajczaka</string>
+
+
+</resources>

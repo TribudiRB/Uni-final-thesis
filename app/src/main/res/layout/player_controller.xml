@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/main_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/play_view_app_bar_size"
+        android:fitsSystemWindows="true"
+        android:weightSum="100">
+
+        <ImageView
+            android:id="@+id/current"
+            style="@style/AppTheme.MainImage"
+            android:layout_weight="45" />
+
+        <TextView
+            android:id="@+id/sound_title"
+            style="@style/AppTheme.MainText"
+            android:layout_weight="20" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_below="@+id/sound_title"
+            android:layout_gravity="center"
+            android:layout_weight="25">
+
+            <ImageView
+                android:id="@+id/first_play"
+                style="@style/AppTheme.ImageView_PlayerVIew" />
+
+            <ImageView
+                android:id="@+id/second_play"
+                style="@style/AppTheme.ImageView_PlayerVIew" />
+
+            <ImageView
+                android:id="@+id/third_play"
+                style="@style/AppTheme.ImageView_PlayerVIew" />
+
+            <ImageView
+                android:id="@+id/fourth_play"
+                style="@style/AppTheme.ImageView_PlayerVIew" />
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_circuit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/play_view_app_bar_size"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <com.bcuzek.magisterka.layout.circuitTimer.CircuitTimer
+            android:id="@+id/timer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="80" />
+
+        <LinearLayout
+            android:id="@+id/player_button_fab"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="20"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <SeekBar
+                android:id="@+id/volumeBar"
+                style="@style/AppTheme.SeekBarAudio"
+                android:layout_weight="5" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5">
+
+                <com.scalified.fab.ActionButton
+                    android:id="@+id/stop"
+                    style="@style/AppTheme.FAB_PLAY_STOP"
+                    app:backgroundTint="?attr/colorAccent"
+                    fab:image="@drawable/ic_pause_white_24dp"
+                    fab:type="normal" />
+
+                <com.scalified.fab.ActionButton
+                    android:id="@+id/play"
+                    style="@style/AppTheme.FAB_PLAY_STOP"
+                    app:backgroundTint="?attr/colorAccent"
+                    fab:image="@drawable/ic_play_arrow_white_24dp"
+                    fab:type="normal" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

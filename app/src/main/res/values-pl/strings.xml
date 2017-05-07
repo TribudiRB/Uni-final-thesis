@@ -1,0 +1,63 @@
+<resources>
+
+    <string name="app_welcome">Witaj</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="common_cancel">Anuluj</string>
+
+    <string name="drawer_open">Otwórz menu</string>
+    <string name="drawer_close">Zamknij menu</string>
+
+    <string name="drawer_player">Player</string>
+    <string name="drawer_sound">Katalog</string>
+    <string name="drawer_record">Nagraj nowe</string>
+    <string name="drawer_settings">Opcje</string>
+    <string name="drawer_about">O aplikacji</string>
+    <string name="drawer_exit">Zamknij aplikację</string>
+
+
+    <string name="theme_main">Wersja kolorystyczna</string>
+    <string name="settings_global">Ogólne</string>
+    <string name="theme_red">Różowy temat</string>
+    <string name="theme_green">Zielony temat</string>
+    <string name="theme_blue">Niebieski temat</string>
+    <string name="theme_salomon">Salomon temat</string>
+    <string name="theme_peach">PeachPuff temat</string>
+    <string name="theme_olive">Oliwkowy temat</string>
+    <string name="theme_chocolate">Czekoladowy temat</string>
+    <string name="theme_gold">Złoty temat</string>
+
+    <string name="time_one_minute">1 minuta</string>
+    <string name="five_sounds">5 minut</string>
+    <string name="ten_minute">10 minut</string>
+    <string name="fifteen_minutes">15 minut</string>
+    <string name="twenty_minutes">20 minut</string>
+    <string name="thirty_minutes">30 minut</string>
+    <string name="forty_five_minutes">45 minut</string>
+    <string name="one_hour_minutes">godzina</string>
+    <string name="player_view_time_two_hour_minutes">2 godziny</string>
+    <string name="infinity">Bez końca</string>
+    <string name="player_view_time_title">Czas</string>
+
+    <string name="play">Start</string>
+    <string name="pause">Pauza</string>
+    <string name="concate_of">z</string>
+
+    <string name="permissions">Uprawnienia</string>
+    <string name="permissions_question">Dlaczego potrzebujemy uprawnień?</string>
+    <string name="contact">Kontakt</string>
+    <string name="application_developer">Deweloper</string>
+    <string name="version">Wersja</string>
+    <string name="version_information">Informacja o wersji</string>
+    <string name="current_version">Wersja 1.0.0 - Premiera aplikacji</string>
+    <string name="play_time">Czas odtwarzania:</string>
+    <string name="play_times">Ilość powtórzeń:</string>
+    <string name="dialog_button_value_close">Zamknij</string>
+
+    <string name="mute_ringtone">Wycisz połączenie</string>
+    <string name="no">Nie</string>
+    <string name="yes">Tak</string>
+
+    <string name="mute_notification">Wycisz powiadomienia</string>
+    <string name="permission_text">READ_PHONE_STATE/MEDIA_BUTTON - obsluga klawiszy głośności \n\nINTERNET/ACCESS_NETWORK_STATE - zglaszanie blędów i reklamy</string>
+
+</resources>

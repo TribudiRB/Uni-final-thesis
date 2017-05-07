@@ -1,0 +1,87 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+apply plugin: 'me.tatarka.retrolambda'
+apply plugin: 'realm-android'
+
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'dupa.8trol'
+            keyPassword 'dupa.8trol'
+            storeFile file('/Users/robert/Desktop/android.jks')
+            storePassword 'dupa.8trol'
+        }
+    }
+    compileSdkVersion 24
+    buildToolsVersion '25.0.0'
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    defaultConfig {
+        applicationId "com.buczek.magisterka"
+        minSdkVersion 16
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0.0"
+        testInstrumentationRunner "android.support.calculate.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        debug {
+            debuggable true
+            jniDebuggable true
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        disable 'MissingTranslation'
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.mockito:mockito-core:1.10.19'
+    compile 'com.android.support:appcompat-v7:24.0.0'
+    compile 'com.android.support:design:24.0.0'
+
+    provided "org.projectlombok:lombok:1.12.6"
+    //butter knife
+    compile 'com.jakewharton:butterknife:8.1.0'
+    apt 'com.jakewharton:butterknife-compiler:8.1.0'
+    compile 'io.reactivex:rxjava:1.1.0'
+    compile 'io.reactivex:rxandroid:1.1.0'
+    //dagger
+    apt 'com.squareup:javapoet:1.7.0'
+    apt 'com.google.dagger:dagger-compiler:2.2'
+    compile 'com.google.dagger:dagger:2.2'
+    provided 'javax.annotation:jsr250-api:1.0'
+    //setting fragment from support
+    compile 'com.github.machinarius:preferencefragment:0.1.1'
+    //material dialog
+    compile 'com.afollestad.material-dialogs:core:0.8.5.9'
+    //Dagger calculate compile
+    androidTestCompile 'com.google.dagger:dagger:2.2'
+    androidTestApt 'com.google.dagger:dagger-compiler:2.2'
+    testCompile 'com.google.dagger:dagger:2.2'
+    testCompile 'com.google.dagger:dagger-compiler:2.2'
+    //RXJAVA
+    compile 'io.reactivex:rxandroid:1.0.1'
+    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.2'
+
+    //picasso
+    compile 'com.squareup.picasso:picasso:2.5.2'
+
+    //GSON
+    compile 'com.google.code.gson:gson:2.3.1'
+    //FAB
+    compile 'com.scalified:fab:1.1.3'
+
+}
+
+
